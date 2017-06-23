@@ -1,0 +1,7 @@
+contexts:
+- data:
+    output_dir: launchpad-processed
+    services_dir: launchpad-services
+    templates_dir: launchpad-templates
+  name: launchpad
+current: launchpad
