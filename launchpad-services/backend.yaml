@@ -3,3 +3,4 @@ services:
   name: launchpad-backend
   path: /openshift/template.yaml
   url: https://github.com/openshiftio/launchpad-backend
+  hash_length: 7
