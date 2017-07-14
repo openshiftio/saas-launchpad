@@ -1,0 +1,5 @@
+services:
+- hash: 2b84ea98ff8e6cb0a1a0daa33841d96f1c594130
+  name: launchpad-missioncontrol
+  path: /openshift/template.yaml
+  url: https://github.com/openshiftio/launchpad-missioncontrol
