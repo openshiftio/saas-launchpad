@@ -1,7 +1,7 @@
 services:
-- hash: a8cec7d7110d00c6f36a199549809f5585200c0e
+- hash: c75eafc7e81d42a2c0f9d5278e176ee935498e25
   name: launchpad-frontend
-  params:
+  parameters:
     IMAGE: registry.devshift.net/launchpad/launchpad-frontend
     LAUNCHPAD_FRONTEND_HOST: launchpad.preview.openshift.io
   path: /openshift/template.yaml
