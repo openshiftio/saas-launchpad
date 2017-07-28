@@ -3,3 +3,6 @@ services:
   name: launchpad-templates
   path: /openshift/proxy/nginx.yaml
   url: https://github.com/openshiftio/launchpad-templates
+  environment:
+  - name: production
+    skip: True

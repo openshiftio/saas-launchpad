@@ -6,3 +6,6 @@ services:
   path: /openshift/template.yaml
   url: https://github.com/openshiftio/launchpad-missioncontrol
   hash_length: 7
+  environment:
+  - name: production
+    skip: True
