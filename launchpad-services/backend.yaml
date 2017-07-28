@@ -6,3 +6,6 @@ services:
   path: /openshift/template.yaml
   url: https://github.com/openshiftio/launchpad-backend
   hash_length: 7
+  environment:
+  - name: production
+    skip: True
