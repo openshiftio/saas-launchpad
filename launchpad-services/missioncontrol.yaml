@@ -1,8 +1,8 @@
 services:
 - hash: 34333aa7ac433b0693a531ab5d73482c2d538f16
   name: launchpad-missioncontrol
-  params:
-    IMAGE: registry.devshift.net/launchpad/launchpad-missioncontrol
+  parameters:
+    IMAGE: registry.devshift.net/openshiftio/launchpad-missioncontrol
   path: /openshift/template.yaml
   url: https://github.com/openshiftio/launchpad-missioncontrol
   hash_length: 7
