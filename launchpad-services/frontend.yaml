@@ -1,9 +1,11 @@
 services:
-- hash: a8cec7d7110d00c6f36a199549809f5585200c0e
+- hash: 45cafa0b2185f7bfb45e50169dfd00f65b32274c
   name: launchpad-frontend
-  params:
+  parameters:
     IMAGE: registry.devshift.net/openshiftio/launchpad-frontend
-    LAUNCHPAD_FRONTEND_HOST: launchpad.preview.openshift.io
   path: /openshift/template.yaml
   url: https://github.com/openshiftio/launchpad-frontend
   hash_length: 7
+  environment:
+  - name: production
+    skip: True

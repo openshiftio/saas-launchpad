@@ -1,0 +1,8 @@
+services:
+- hash: 955f473d0a68c390dd5f79ad48f1706241433cc8
+  name: launchpad-templates
+  path: /openshift/proxy/nginx.yaml
+  url: https://github.com/openshiftio/launchpad-templates
+  environment:
+  - name: production
+    skip: True
