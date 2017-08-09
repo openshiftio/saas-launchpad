@@ -1,0 +1,7 @@
+services:
+- hash: None
+  name: appdev-documentation
+  params:
+    IMAGE: registry.devshift.net/openshiftio/appdev-documentation
+  path: /openshift/template.yaml
+  url: https://github.com/openshiftio/appdev-documentation
