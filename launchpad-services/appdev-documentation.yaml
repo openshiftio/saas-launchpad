@@ -5,3 +5,4 @@ services:
     IMAGE: registry.devshift.net/openshiftio/appdev-documentation
   path: /openshift/template.yaml
   url: https://github.com/openshiftio/appdev-documentation
+  hash_length: 7
