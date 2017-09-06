@@ -1,5 +1,5 @@
 services:
-- hash: efbe334111bdc096713bbf2ad44a5106da267456
+- hash: a6625ff5b19141f1eb35f0fc996ce24f92d5a4ae
   name: launchpad-backend
   parameters:
     IMAGE: registry.devshift.net/openshiftio/launchpad-backend
