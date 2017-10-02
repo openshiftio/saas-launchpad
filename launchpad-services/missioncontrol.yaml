@@ -1,5 +1,5 @@
 services:
-- hash: 68c7010d5fc04a351919c46961a9925e1664e987
+- hash: 883d636dfdce773322262fcb7fefb751d4404ca3
   name: launchpad-missioncontrol
   parameters:
     IMAGE: registry.devshift.net/openshiftio/launchpad-missioncontrol
