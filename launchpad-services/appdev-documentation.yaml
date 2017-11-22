@@ -1,5 +1,5 @@
 services:
-- hash: 41652e1b0eef0c3fc187e3d4813fa8cdef2aac60
+- hash: 999fc44ec7a6e3dc2b63d8b84b284d19f9c7e94f
   name: appdev-documentation
   parameters:
     IMAGE: registry.devshift.net/openshiftio/appdev-documentation
