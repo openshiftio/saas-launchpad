@@ -1,5 +1,5 @@
 services:
-- hash: 75b8aa1986c9d7920d37617c431bef2ed9a7e6bb
+- hash: 6bbf7b5fd3d3ab3e3004c2183abf1f4f428d5bb2
   name: launchpad-frontend
   parameters:
     IMAGE: registry.devshift.net/openshiftio/launchpad-frontend
