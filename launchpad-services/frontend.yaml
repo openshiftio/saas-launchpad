@@ -1,8 +1,8 @@
 services:
-- hash: 0db548ae5a22860ae76057cf68a0ea67ef1ef614
-  name: launchpad-frontend
+- hash: 4accede6995390606f5a8973b4f95e9eeeb39d68
+  name: launcher-frontend
   parameters:
-    IMAGE: registry.devshift.net/openshiftio/launchpad-frontend
+    IMAGE: registry.devshift.net/fabric8/launcher-frontend
   path: /openshift/template.yaml
-  url: https://github.com/openshiftio/launchpad-frontend
+  url: https://github.com/fabric8-launcher/launcher-frontend
   hash_length: 7
