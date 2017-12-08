@@ -1,13 +1,8 @@
 services:
-- hash: 08fea9057d04e2afc5e516d1810636a2cc93c8ad
-  name: launchpad-backend
+- hash: 9872cb661fc436b14da15a8c9178e97df2a74198
+  name: launcher-backend
   parameters:
-    IMAGE: registry.devshift.net/openshiftio/launchpad-backend
+    IMAGE: registry.devshift.net/fabric8/launcher-backend
   path: /openshift/template.yaml
-  url: https://github.com/openshiftio/launchpad-backend
+  url: https://github.com/fabric8-launcher/launcher-backend
   hash_length: 7
-  environment:
-    - name: staging
-      parameters:
-        IMAGE: registry.devshift.net/fabric8/launcher-backend
-      url: https://github.com/fabric8-launcher/launcher-backend
