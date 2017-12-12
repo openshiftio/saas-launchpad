@@ -1,5 +1,0 @@
-services:
-- hash: db0d424c677142d4f152075f4f968e8c990881a6
-  name: launchpad-templates
-  path: /openshift/proxy/nginx.yaml
-  url: https://github.com/openshiftio/launchpad-templates
