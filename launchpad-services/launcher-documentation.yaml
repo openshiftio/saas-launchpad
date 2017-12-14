@@ -1,5 +1,5 @@
 services:
-- hash: dd46582683577a509a8be339dd59f5b754ff2171
+- hash: None
   name: launcher-documentation
   parameters:
     IMAGE: registry.devshift.net/fabric8/launcher-documentation
