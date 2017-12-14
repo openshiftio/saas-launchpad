@@ -1,8 +1,0 @@
-services:
-- hash: dd46582683577a509a8be339dd59f5b754ff2171
-  name: appdev-documentation
-  parameters:
-    IMAGE: registry.devshift.net/openshiftio/appdev-documentation
-  path: /openshift/template.yaml
-  url: https://github.com/fabric8-launcher/launcher-documentation
-  hash_length: 7
