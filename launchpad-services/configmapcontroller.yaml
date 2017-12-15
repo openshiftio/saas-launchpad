@@ -1,0 +1,5 @@
+services:
+- hash: 971412133b88b47660c33cb77a6ec1fd4a392558
+  name: launcher-configmapcontroller
+  path: /openshift/split/launcher-configmapcontroller.yaml
+  url: https://github.com/fabric8-launcher/launcher-openshift-templates
