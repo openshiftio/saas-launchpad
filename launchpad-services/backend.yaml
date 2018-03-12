@@ -1,5 +1,5 @@
 services:
-- hash: beaef20675a89d99eb936b762141755a93222881
+- hash: e186eae1b413739a741a30731abfef6892070c6f
   name: launcher-backend
   parameters:
     IMAGE: registry.devshift.net/fabric8/launcher-backend
