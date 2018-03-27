@@ -7,7 +7,7 @@ services:
       CPU_REQUEST: 0.25
       CPU_LIMIT: 1
       MEMORY_REQUEST: 768M
-      MEMORY_LIMIT: 2G
+      MEMORY_LIMIT: 6G
       REPLICAS: 3
   - name: staging
     parameters:
