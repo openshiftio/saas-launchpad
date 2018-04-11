@@ -1,5 +1,5 @@
 services:
-- hash: fd4353f6c19c33785709445936659c5f466fe27f
+- hash: 64421513d8921a145aaf0ec922fa16b5af821db4
   name: launcher-backend
   environments:
   - name: production
@@ -15,7 +15,7 @@ services:
       CPU_LIMIT: 1
       MEMORY_REQUEST: 768M
       MEMORY_LIMIT: 2G
-      REPLICAS: 1
+      REPLICAS: 3
   parameters:
     IMAGE: registry.devshift.net/fabric8/launcher-backend
   path: /openshift/template.yaml
