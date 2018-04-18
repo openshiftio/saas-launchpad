@@ -15,7 +15,7 @@ services:
       CPU_LIMIT: 1
       MEMORY_REQUEST: 768M
       MEMORY_LIMIT: 2G
-      REPLICAS: 1
+      REPLICAS: 3
   parameters:
     IMAGE: registry.devshift.net/fabric8/launcher-backend
   path: /openshift/template.yaml
