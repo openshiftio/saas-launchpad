@@ -1,5 +1,5 @@
 services:
-- hash: cd1f7f1df565f656579e0f955f3776b2a754cd3a
+- hash: 57bccd2b9ec7c2dc3fec11ff887aa4a5b4cb36be
   name: launcher-frontend
   parameters:
     IMAGE: registry.devshift.net/fabric8/launcher-frontend
