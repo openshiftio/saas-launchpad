@@ -1,8 +1,13 @@
 services:
 - hash: 57bccd2b9ec7c2dc3fec11ff887aa4a5b4cb36be
   name: launcher-frontend
-  parameters:
-    IMAGE: registry.devshift.net/fabric8/launcher-frontend
+  environments:
+  - name: production
+    parameters:
+      IMAGE: registry.devshift.net/fabric8/launcher-frontend
+  - name: staging
+    parameters:
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-frontend
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-frontend
   hash_length: 7
