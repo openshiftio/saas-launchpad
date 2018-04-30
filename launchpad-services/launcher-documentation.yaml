@@ -4,7 +4,7 @@ services:
   environments:
   - name: production
     parameters:
-      IMAGE: registry.devshift.net/fabric8/launcher-documentation
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-documentation
   - name: staging
     parameters:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-documentation
