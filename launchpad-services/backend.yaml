@@ -9,6 +9,7 @@ services:
       MEMORY_REQUEST: 768M
       MEMORY_LIMIT: 2G
       REPLICAS: 1
+      IMAGE: registry.devshift.net/fabric8/launcher-backend
   - name: staging
     parameters:
       CPU_REQUEST: 0.25
@@ -16,8 +17,7 @@ services:
       MEMORY_REQUEST: 768M
       MEMORY_LIMIT: 2G
       REPLICAS: 1
-  parameters:
-    IMAGE: registry.devshift.net/fabric8/launcher-backend
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-backend
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-backend
   hash_length: 7
