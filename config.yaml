@@ -1,4 +1,6 @@
 contexts:
+- context:
+    namespace: launchpad-production
 - data:
     output_dir: launchpad-processed
     services_dir: launchpad-services
