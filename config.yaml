@@ -4,7 +4,9 @@ contexts:
     services_dir: launchpad-services
     templates_dir: launchpad-templates
   name: launchpad
-  namespace:
-    production: launchpad-production
-    staging: launchpad-preview
-current: launchpad
+  environments:
+    production:
+      namespace: launchpad-production
+    staging:
+      namespace: launchpad-preview
+ current: launchpad
