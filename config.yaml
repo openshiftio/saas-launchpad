@@ -9,4 +9,4 @@ contexts:
       namespace: launchpad-production
     staging:
       namespace: launchpad-preview
- current: launchpad
+current: launchpad
