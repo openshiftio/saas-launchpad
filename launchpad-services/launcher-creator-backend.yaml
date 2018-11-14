@@ -1,0 +1,23 @@
+services:
+- hash: 92942d3d6f5ab3ca684c167c84aeef7977135d9e
+  name: launcher-creator-backend
+  environments:
+  - name: production
+    parameters:
+      CPU_REQUEST: 0.25
+      CPU_LIMIT: 1
+      MEMORY_REQUEST: 768M
+      MEMORY_LIMIT: 2G
+      REPLICAS: 1
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-creator-backend
+  - name: staging
+    parameters:
+      CPU_REQUEST: 0.25
+      CPU_LIMIT: 1
+      MEMORY_REQUEST: 768M
+      MEMORY_LIMIT: 2G
+      REPLICAS: 1
+      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-creator-backend
+  path: /openshift/template.yaml
+  url: https://github.com/fabric8-launcher/launcher-creator-backend
+  hash_length: 7
