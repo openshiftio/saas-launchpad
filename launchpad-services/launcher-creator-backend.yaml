@@ -1,13 +1,13 @@
 services:
-- hash: 7a07d919da3c8908b80d9c8d49a7c603b90d1b97
+- hash: d6be99dc9c1d5683816b8a3ee2e0d62d682df75c
   name: launcher-creator-backend
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-creator-backend
+      IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-creator-backend
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-creator-backend
+      IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-creator-backend
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-creator-backend
   hash_length: 7
