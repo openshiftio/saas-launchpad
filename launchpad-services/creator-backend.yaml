@@ -8,6 +8,7 @@ services:
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-creator-backend
+      MEMORY_REQUEST: 8Mi
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-creator-backend
   hash_length: 7
