@@ -7,7 +7,7 @@ services:
       IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-frontend
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-frontend
+      IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-frontend
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-frontend
   hash_length: 7
