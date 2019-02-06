@@ -1,10 +1,10 @@
 services:
-- hash: c1c58abc0b5eb10d7efe0980e2696e6a0c0e75af
+- hash: eb6626641b713edc090a683c87eb1384aa7ecf49
   name: launcher-frontend
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-frontend
+      IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-frontend
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-frontend
