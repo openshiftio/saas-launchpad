@@ -1,5 +1,5 @@
 services:
-- hash: e413397824b3cd88474988b9a19749064faf2a7b
+- hash: 37b5020cefb5ac4e995c5e8176f36d8ac588d166
   name: launcher-backend
   environments:
   - name: production
