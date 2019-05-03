@@ -1,5 +1,5 @@
 services:
-- hash: 40a881590e9d9de54f081a65632b30d6c196c76d
+- hash: 6f90f83a0a602ce897e4accbbb916c8b933f8f3d
   name: launcher-frontend
   environments:
   - name: production
@@ -11,3 +11,4 @@ services:
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-frontend
   hash_length: 7
+  
