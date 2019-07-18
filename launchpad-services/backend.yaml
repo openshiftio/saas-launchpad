@@ -1,6 +1,6 @@
 services:
 - hash: 30f87d9576b504f2c8e6e6e89e0ad579291f8214
-  name: launcher-backend
+  name: launcher-application
   environments:
   - name: production
     parameters:
@@ -19,5 +19,5 @@ services:
       REPLICAS: 1
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-backend
   path: /openshift/template.yaml
-  url: https://github.com/fabric8-launcher/launcher-backend
+  url: https://github.com/fabric8-launcher/launcher-application
   hash_length: 7
