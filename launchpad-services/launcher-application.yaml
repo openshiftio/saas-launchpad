@@ -1,5 +1,5 @@
 services:
-- hash: d94c285539b1a014c0fc6cdcb072a8786ca3b915
+- hash: c9605a5fe6d36d021a1c6dfe78a858dad618fd7a
   name: launcher-application
   environments:
   - name: production
@@ -8,7 +8,6 @@ services:
       CPU_LIMIT: 1
       MEMORY_REQUEST: 768M
       MEMORY_LIMIT: 2G
-      REPLICAS: 1
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-backend
   - name: staging
     parameters:
@@ -16,7 +15,6 @@ services:
       CPU_LIMIT: 1
       MEMORY_REQUEST: 768M
       MEMORY_LIMIT: 2G
-      REPLICAS: 1
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-backend
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-application
