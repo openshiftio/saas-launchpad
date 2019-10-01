@@ -1,13 +1,13 @@
 services:
-- hash: fcc85322aa44a818e6d321d909cbbe80547a7c52
+- hash: 1e489c888ab9b3cdfd9482af92e83f4a8cf26913
   name: launcher-documentation
   environments:
   - name: production
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-documentation
+      IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-documentation
   - name: staging
     parameters:
-      IMAGE: prod.registry.devshift.net/osio-prod/fabric8/launcher-documentation
+      IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-documentation
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-documentation
   hash_length: 7
