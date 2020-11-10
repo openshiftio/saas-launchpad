@@ -5,9 +5,11 @@ services:
   - name: production
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-documentation
+      MEMORY_LIMIT: 64M
   - name: staging
     parameters:
       IMAGE: quay.io/openshiftio/rhel-fabric8-launcher-documentation
+      MEMORY_LIMIT: 64M
   path: /openshift/template.yaml
   url: https://github.com/fabric8-launcher/launcher-documentation
   hash_length: 7
